@@ -1,2 +1,2 @@
 # exiftool.js-test
-submodule for testing exiftool.js
+Test resources that don't belong in the exiftool.js module in production. See https://github.com/mattburns/exiftool.js

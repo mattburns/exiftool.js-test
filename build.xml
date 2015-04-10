@@ -1,0 +1,13 @@
+<project name="scf-testdata" default="shrink-support-images" basedir=".">
+    <description>
+        Shrink any test images
+    </description>
+
+    <target name="shrink-support-images" description="Reduce regression test images so that image is blank">
+        <apply executable="perl" parallel="false">
+            <arg value="swap_image.pl" />
+            <srcfile />
+            <fileset dir="sampleImages/_Other" />
+        </apply>
+    </target>
+</project>
